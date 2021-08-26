@@ -4,12 +4,12 @@
     "color_body_text": "#333333",
     "color_primary_color": "#333333",
     "color_primary_button_text": "#ffffff",
-    "color_sale_badge": "#c8493f",
+    "color_sale_badge": "#190907",
     "color_borders": "#e8e8e8",
     "color_form": "#f4f4f4",
     "color_image_overlay_text": "#fff",
     "color_image_overlay": "#333333",
-    "image_overlay_opacity": "25",
+    "image_overlay_opacity": 25,
     "type_header_font": "times_new_roman_n4",
     "type_header_base_size": "28px",
     "type_base_font": "helvetica_n4",
@@ -24,12 +24,18 @@
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "home_page_featured_products": "frontpage"
+          "title": "Featured collection",
+          "home_page_featured_products": "frontpage",
+          "home_featured_products_row_num": 2
         }
       },
       "featured-content": {
         "type": "featured-content",
-        "settings": {}
+        "settings": {
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text_size": "medium"
+        }
       },
       "footer": {
         "type": "footer",
@@ -37,6 +43,7 @@
           "footer-0": {
             "type": "menu",
             "settings": {
+              "title": "Links",
               "menu": "footer"
             }
           }
@@ -44,7 +51,26 @@
         "block_order": [
           "footer-0"
         ],
-        "settings": {}
+        "settings": {
+          "show_payment_icons": true
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_max_width": 150,
+          "show_announcement": false,
+          "home_page_only": true,
+          "announcement_text": "Announce something here",
+          "announcement_link": "",
+          "tagline": ""
+        }
+      },
+      "sidebar": {
+        "type": "sidebar",
+        "settings": {
+          "main_menu_link_list": "main-menu"
+        }
       }
     },
     "content_for_index": [
@@ -83,7 +109,8 @@
         },
         "featured-content": {
           "type": "featured-content",
-          "settings": {}
+          "settings": {
+          }
         },
         "footer": {
           "type": "footer",
@@ -98,7 +125,8 @@
           "block_order": [
             "footer-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [
@@ -249,11 +277,13 @@
             },
             "footer-1": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "footer-2": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -261,7 +291,8 @@
             "footer-1",
             "footer-2"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [
@@ -303,7 +334,8 @@
           "blocks": {
             "slideshow-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -316,11 +348,13 @@
         },
         "featured-products": {
           "type": "featured-products",
-          "settings": {}
+          "settings": {
+          }
         },
         "map": {
           "type": "map",
-          "settings": {}
+          "settings": {
+          }
         },
         "product-template": {
           "type": "product-template",
@@ -351,14 +385,16 @@
             },
             "footer-1": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
             "footer-0",
             "footer-1"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [
